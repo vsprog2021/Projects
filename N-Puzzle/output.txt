@@ -1,0 +1,6 @@
+Size este: 3
+Board este: (2 3 6 1 5 0 4 7 8)
+Tabla este valida.
+Tabla este rezolvabila!
+Pathul: (nothing)(up)(left)(left)(down)(down)(right)(right)
+Solutia a fost gasita!

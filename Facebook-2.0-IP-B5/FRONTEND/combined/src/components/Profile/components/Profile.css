@@ -1,0 +1,262 @@
+@import url(https://fonts.googleapis.com/css?family=Viga);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+* {
+  font-family: 'Montserrat';
+}
+
+.profile_container-profile {
+  display: grid;
+  grid-template-columns: 5% auto;
+ grid-gap: 7px;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: rgb(241, 229, 255);
+}
+.profile_left-profile {
+ padding: 0;
+}
+
+.profile_right-profile {
+  flex-direction: column;
+
+  width: 100%;
+  height: 100%;
+}
+
+
+.myprofile_input {
+  position: absolute;
+  width: 40em;
+  height: 2em;
+}
+
+.profile_content-profile {
+
+  width: 100%;
+}
+
+.profile_upper-profile {
+  margin-bottom: 7px;
+  margin-right: 7px;
+}
+
+.profile_colored-cover {
+  border-radius: .4em;
+  height: 14em;
+  background: linear-gradient(85deg, #2c80b8, #8e44ad);
+}
+
+.profile_profile-photo {
+  width: 10em;
+  height: 10em;
+
+  background-color: lightgray;
+  background-size: cover;
+  background-position: center;
+  border: .2em solid #7703FC;
+  border-radius: 50%;
+  position: relative;
+  float: left;
+  top: 7.5em;
+  left: 1em;
+}
+
+.profile_profile-name.h2 {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 2em;
+  margin-left: 10em;
+}
+
+.profile_buttons-name {
+  display: flex;
+  align-items: center;
+  height: 5em;
+  background-color: white;
+  border-radius: .4em;
+}
+
+.profile_buttons-name .profile_profile-info {
+  margin-left: 15em;
+  margin-right: auto;
+}
+
+.profile_white-cover button {
+  height: 2.1em;
+  background: #7703FC;
+  border-radius: .5em;
+  border: none;
+  color: white;
+}
+
+.profile_white-cover .profile_add-friend {
+  margin-right: 2em;
+  margin-left: auto;
+}
+
+.profile_bottom-profile {
+  display: flex;
+  height: 25em;
+  flex-direction: row;
+}
+
+.profile_left-content-profile {
+  position: relative;
+  margin-bottom: -1em;
+
+}
+
+.profile_bottom-profile .profile_left-content-profile {
+  width: 25%;
+  margin-right: .5em;
+  background-color: var(--card-clr);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 5px 5px lightgray;
+  border: none;
+  padding: 20px;
+}
+
+.profile_bottom-profile .profile_right-content-profile {
+  width: 75%;
+}
+
+.profile_edit-details {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.profile_left-content-profile img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 2em;
+  width: 2em;
+  color: #7703FC;
+  cursor: pointer;
+  margin-bottom: .3em;
+  margin-right: .3em;
+}
+
+/* TO BE CHANGED */
+.profile_button {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.profile_button:focus {
+  outline: none;
+}
+
+.profile_buttons {
+  flex-direction: row;
+  flex: 2;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  align-items: end;
+  display: flex;
+  margin-top: -2.5em;
+  margin-left: -2em;
+
+}
+
+.profile_nothing {
+  flex-direction: column;
+  flex: 2;
+  width: 100%;
+  height: 100%;
+}
+
+.profile_profile-name {
+  flex-direction: column;
+  flex: 5;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: 'Viga';
+
+}
+.profile_top-bar {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  height: 8%;
+  padding: 3px 0;
+  padding-left: 10px;
+  
+margin-top: 7px;
+margin-bottom: 7px;
+margin-right: 7px;
+  border-radius: 8px;
+}
+.profile_search-profile {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-grow: 1;
+
+  height: 80%;
+  align-items: center;
+  border-radius: 15px;
+}
+
+
+
+.profile_search_box-profile {
+  width: 60%;
+  background-color: hsla(274, 73%, 55%, 0.19);
+  border-radius: 15px;
+  height: 90%;
+  margin: auto 0;
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+}
+
+.profile_search_box-profile img {
+  margin-left: 5px;
+}
+
+.profile_right_icons-profile {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.profile_right_icons-profile img {
+  padding: 10px;
+  
+}
+
+.profile_top-bar {
+  position: absolute;
+  background-color: white;
+  margin-left: 0em;
+  flex: 1;
+  width: 92%;
+  height: 8%;
+  border: none;
+  border-radius: 10px;
+  z-index: 1;
+  box-shadow: 0px 0px 5px lightgray;
+}
+
+
+.feed_modal{
+  background: rgba(49,49,49,0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  
+  z-index: 2;
+}

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="clips_jni_640">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../CLIPS.6.4.1/clips_jni_640.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../CLIPS.6.4.1/clips_jni_640.zip!/CLIPSJNI/java-src" />
+    </SOURCES>
+  </library>
+</component>
